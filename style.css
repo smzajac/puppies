@@ -1,0 +1,183 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+background-image: url(img/bg.jpg);
+padding-left: 150px;
+padding-right: 150px;
+}
+
+.border_color{
+  border-style: solid;
+  border-color: orange;
+}
+
+.section_padding{
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #1fabe5;
+}
+
+h3 {
+  color: #1fabe5;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+p{
+  color: black;
+}
+
+li {
+  font-weight: bold;
+  margin: 10px;
+}
+
+/*table tr td{
+  border-style: solid;
+  border-color: blue;
+  border-collapse: collapse;
+}*/
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #046c97;
+    text-align: left;
+    padding: 8px;
+}
+
+form{
+  background-color: #eee;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+
+.puppy_images{
+  width: 50px;
+  height: 50px;
+}
+
+.table_header td {
+  color: white;
+  background-color: #1fabe5;
+
+}
+
+.button {
+    background-color: none;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+#site_header {
+background-color: #ff8523;
+padding-bottom: 30px;
+padding-left: 30px;
+padding-top: 20px;
+}
+
+#logo{
+
+}
+
+#page_content{
+background-color: white;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 40px;
+padding-bottom: 100px;
+}
+
+#first_name {
+
+}
+
+#last_name{
+
+}
+
+#city{
+
+}
+
+#bio{
+  border-color: #1fabe5;
+  border-width: 2px;
+  border-radius: 5px;
+  font-size: 12pt;
+}
+
+#submit_button{
+  background-color: #1fabe5;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.main_navigation{
+
+}
+
+.name{
+  background-color: orange;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.city_container{
+  padding: 15px;
+}
+
+.submit_container{
+  padding: 15px;
+}
